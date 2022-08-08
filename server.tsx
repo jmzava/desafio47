@@ -1,4 +1,4 @@
-import { createApp, Application, Router } from './deps.ts'
+import { Application, Router } from './deps.ts'
 import Page from './pages.tsx'
 
 

@@ -6,8 +6,5 @@ import ReactDOMServer from "https://jspm.dev/react-dom/server"
 
 import {Application, Router, RouterContext} from "https://deno.land/x/oak@v10.6.0/mod.ts"
 
-import {createApp } from "https://deno.land/x/servest@v1.3.4/mod.ts"
-
-
-export { createApp, React, ReactDOMServer, Router, Application};
+export { React, ReactDOMServer, Router, Application};
 export type { RouterContext}

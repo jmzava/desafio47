@@ -4,8 +4,8 @@ const Varios = ( props:Array<string>) =>{
     const colors = Object.values(props)
     return(
         <ul>
-            {colors.map(color => { 
-                return <li style={{color: color}}>{color} </li>
+            {colors.map((color, index) => { 
+                return <li key={index} style={{color: color}}>{color} </li>
             })}
         </ul>
     )
@@ -24,6 +24,3 @@ ${ReactDOMServer.renderToString((
     </>
 ))}`
 
-/* <pre>
-{JSON.stringify(props, null, 2)}
-</pre> */
